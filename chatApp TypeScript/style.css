@@ -1,0 +1,100 @@
+ 
+        body {
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            background-color: #90949C;
+          }
+          
+          .conteiner {
+            display: grid; 
+            grid-auto-flow: column dense; 
+            grid-auto-rows: 1fr; 
+            grid-template-columns: 1fr; 
+            grid-template-rows: 0.3fr 2.3fr 0.4fr; 
+            gap: 0em 3em; 
+            grid-template-areas: 
+              "."
+              "."
+              "."; 
+            justify-content: space-evenly; 
+            align-content: stretch; 
+            justify-items: center; 
+            align-items: stretch; 
+            width: 350px; 
+            height: 500px; 
+            background-color: white;
+            border-radius: 20px;
+          }
+          
+          .nav {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-bottom: 1px solid black;
+            width: 100%;
+          }
+          
+          .fotter {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-top: 1px solid black;
+            width: 100%;
+          }
+          
+          i {
+            color: #04a381;
+          }
+          
+          .content {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+          }
+          
+          .message, p {
+            font-family: "Roboto";
+            margin-bottom: 5px;
+          }
+          
+          .date {
+            color: gray;
+          }
+          
+          .name {
+            font-weight: bolder;
+            font-size: 1.5rem;
+            position: relative;
+            bottom: 15%;
+          }
+          
+          .message {
+            border-radius: 20px;
+            text-align: center;
+            color: white;
+            padding: 0.7rem;
+            position: relative;
+          }
+          
+          .theres {
+            left: 70%;
+            background-color: #04a381;
+          }
+          
+          .ours {
+            right: 65%;
+            background-color: #E9EBEE;
+            color: black;
+          }
+          
+          input {
+            background-color: #E9EBEE;
+            border: none;
+            border-radius: 20px;
+            padding: 5px;
+          }
+             
